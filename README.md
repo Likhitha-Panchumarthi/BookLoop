@@ -1,3 +1,4 @@
+
 # 📚 BookLoop – Smart Student Book Exchange & E-Commerce Management System
 
 > **Tagline:** *"Your old books. Someone else's next semester."*  
@@ -360,3 +361,7 @@ The login screen features **Quick Fill** buttons for 1-click testing:
 
 ### Q5: How are book cover images handled and stored?
 **Answer:** In `AddListingPanel`, a `JFileChooser` filtered for image formats allows students to pick a cover photo. `ImageUtil.saveImage()` generates a random UUID file name, safely copies the file into `book_images/`, and saves the relative path in MySQL. For pre-seeded books, `GenerateBookCovers.java` procedurally generates 2D academic book covers with gradient backgrounds, title wrapping, and spine depth accents using `Graphics2D`.
+
+# BookLoop
+Java-based Book Marketplace and Listing Management System
+
